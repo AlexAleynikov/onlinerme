@@ -1,0 +1,7 @@
+https://mapshaper.org/
+
+filter 'TAX_SALE > 0'
+filter 'Tax_debt != null'
+filter 'hd_files_count > 0'
+-colorizer name=green colors=green categories 'Tax_debt != null'
+-proj wgs84
